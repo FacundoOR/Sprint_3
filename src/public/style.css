@@ -1,0 +1,328 @@
+@media(max-width: 768px) {
+    .topnav {
+        display: none;
+    }
+
+    nav {
+        background-color: #505050;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .burguer {
+        overflow: hidden;
+        text-align: right;
+        display: flex;
+        flex-direction: row;
+        margin-right: 20px;
+
+    }
+}
+
+@media(min-width: 769px) and (max-width: 1200px) {
+
+    .burguer {
+        visibility: collapse;
+    }
+
+    .topnav {
+        overflow: hidden;
+        text-align: right;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .topnav a {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        color: white;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+
+    }
+
+    nav {
+        background-color: #505050;
+        width: 100%;
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-between;
+        align-items: center;
+        font-family: 'Exo', sans-serif;
+    }
+}
+
+@media(min-width: 1201px) {
+
+    .burguer {
+        visibility: collapse;
+    }
+
+    .topnav {
+        overflow: hidden;
+        text-align: right;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .topnav a {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        color: white;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+
+    }
+
+    nav {
+        background-color: #505050;
+        width: 100%;
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-between;
+        align-items: center;
+        font-family: 'Exo', sans-serif;
+    }
+}
+
+.banner {
+    background-image: url(https://www.cardamomo.news/__export/1618378062720/sites/debate/img/2021/04/13/992693ae-b5cb-4e1d-a329-b8e500354661_crop1618376822647.jpg_242310155.jpg);
+    background-color: #cccccc;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: white;
+    font-family: 'Exo', sans-serif;
+}
+
+main .img {
+    opacity: 40%;
+}
+
+body {
+    margin: 0%;
+
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Exo', sans-serif;
+}
+
+.nosotros h2 {
+    margin: 0px;
+}
+
+.nosotros {
+    background-color: #999E60;
+    flex-wrap: wrap;
+
+}
+
+.barrin {
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: cover;
+    opacity: 50%;
+}
+
+
+.info {
+    background-color: #E2CF7D;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 10px 60px 20px 60px;
+    list-style: none;
+    flex-wrap: wrap;
+
+}
+
+.contact li a {
+    text-decoration: none;
+    color: black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+.copy p {
+    text-align: center;
+    margin: 2px;
+    font-size: 10px;
+}
+
+.articulos {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+
+.product,
+.detail,
+.cart {
+    font-family: 'Exo', sans-serif;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 40px;
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Exo', sans-serif;
+
+}
+
+.grilla {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.par {
+    font-family: 'Advent Pro', sans-serif;
+    width: 1100px;
+    height: 100px;
+    padding-left: 40px;
+    text-align: center;
+}
+
+.pos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.r {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.cart_art {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.cart_art p {
+    width: 30%;
+}
+
+.cantidad {
+    width: 10%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    text-align: center;
+
+}
+
+.precio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.comprar{
+   display: flex;
+   justify-content: flex-end;
+   margin-right: 5%;
+   margin-bottom: 2%;
+}
+
+.comprar1{
+    font-size: 30px;
+}
+
+
+button {
+    border-radius: 15px;
+    background-color: white;
+    font-family: 'Advent Pro', sans-serif;
+}
+
+.total {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.total h2 {
+    margin: 3%;
+}
+
+.encabezado {
+
+    text-align: center;
+    color: white;
+    padding-top: 50px;
+}
+
+.fondo {
+    background-image: url(https://github.com/FacundoOR/Rosas-ERE/blob/main/WEB/Imagen1.png?raw=true);
+    background-repeat: no-repeat;
+    background-position: bottom 100% right 82%;
+    background-color: #505050;
+    height: 100%;
+    font-family: 'Advent Pro', sans-serif;
+}
+
+.login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 300px;
+    font-family: 'Advent Pro', sans-serif;
+    color: white;
+}
+
+input {
+    border-radius: 10px;
+    border-color: white;
+    background-color: #505050;
+    font-family: 'Advent Pro', sans-serif;
+    color: white;
+}
+
+#user,
+#pass,
+#nombre,
+#apellido,
+#email {
+    background-color: white;
+}
+
+.social {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.social a {
+    margin: 10px;
+}

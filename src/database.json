@@ -1,0 +1,50 @@
+[
+    {
+        "id" : 1,
+        "nombre" : "Caja 10 barras de cereal arandanos",
+        "descripcion" : "Caja de 10 barras de cereal de 45gr sabor arandanos ",
+        "precio" : 999
+    },
+    {
+        "id" : 2,
+        "nombre" : "Caja 10 barras de cereal limon",
+        "descripcion" : "Caja de 10 barras de cereal de 45gr sabor limon ",
+        "precio" : 999
+    },
+    {
+        "id" : 3,
+        "nombre" : "Caja 10 barras de cereal chocolate",
+        "descripcion" : "Caja de 10 barras de cereal de 45gr sabor chocolate ",
+        "precio" : 999
+    },
+    {
+        "id" : 4,
+        "nombre" : "Caja 10 barras de cereal semillas",
+        "descripcion" : "Caja de 10 barras de cereal de 45gr sabor semillas ",
+        "precio" : 999
+    },
+    {
+        "id" : 5,
+        "nombre" : "Caja 10 barras de cereal clasicas",
+        "descripcion" : "Caja de 10 barras de cereal de 45gr sabor clasica ",
+        "precio" : 999
+    },
+    {
+        "id" : 6,
+        "nombre" : "Caja 10 barras de cereal coco",
+        "descripcion" : "Caja de 10 barras de cereal de 45gr sabor coco ",
+        "precio" : 999
+    },
+    {
+        "id" : 7,
+        "nombre" : "Caja 10 barras de cereal naranja",
+        "descripcion" : "Caja de 10 barras de cereal de 45gr sabor naranja ",
+        "precio" : 999
+    },
+    {
+        "id" : 8,
+        "nombre" : "Caja 10 barras de cereal chocolate blanco",
+        "descripcion" : "Caja de 10 barras de cereal de 45gr sabor chocolate blanco ",
+        "precio" : 999
+    }
+]

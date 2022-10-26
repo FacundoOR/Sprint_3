@@ -1,21 +1,16 @@
 const express = require('express')
 const app = express()
+const path = require('path')
 const PORT = 3000
 
-app.listen(PORT, () => console.log('listening on port', PORT))
+app.set('view engine', 'ejs')
+app.set("views", __dirname + '/views')
+app.use(express.static(__dirname + '/public'))
 
-app.get('/',(req, res)=> {
-    res.send('Estoy en el Home')
-})
-app.get('/detalle-producto',(req, res)=> {
-    res.send('Estoy en el Detail')
-})
-app.get('/inicio-sesion',(req, res)=> {
-    res.send('Estoy en el Inicio de sesion')
-})
-app.get('/registrarme',(req, res)=> {
-    res.send('Estoy en el Registro')
-})
-app.get('/carrito',(req, res)=> {
-    res.send('Estoy en el Carro')
-})
+app.use('/', require("./routes/Home"))
+app.use('/', require("./routes/Detail_products"))
+app.use('/', require("./routes/Login"))
+app.use('/', require("./routes/Register"))
+app.use('/', require("./routes/Cart"))
+
+app.listen(PORT, () => console.log('listening on port', PORT))
