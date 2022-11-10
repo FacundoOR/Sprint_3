@@ -191,7 +191,7 @@ h2 {
 
 .grilla {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     justify-content: space-around;
 }
@@ -315,6 +315,8 @@ input {
 #apellido,
 #email {
     background-color: white;
+    color: black;
+
 }
 
 .social {

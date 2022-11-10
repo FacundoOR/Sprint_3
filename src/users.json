@@ -1,0 +1,14 @@
+[
+    {
+        "id": 1,
+        "username": "frosas",
+        "password": "$2b$10$w75dF4lRpoxK.Qhp6YYbyOvPM4F.0x4fxv6s3cT0ZiJoAuPMY8/rS",
+        "email": "facu@gmail.com"
+    },
+    {
+        "id": 2,
+        "username": "facundo",
+        "password": "$2b$10$w75dF4lRpoxK.Qhp6YYbyOvPM4F.0x4fxv6s3cT0ZiJoAuPMY8/rS",
+        "email": "Oscar@gmail.com"
+    }
+]

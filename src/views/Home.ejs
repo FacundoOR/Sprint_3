@@ -13,82 +13,25 @@
                 </div>
                 <div class="product">
                     <h2>PRODUCTOS</h2>
-                    <div class="grilla"></div>
-                    <div class="articulos">
-                        <article>
-                            <img src="https://github.com/FacundoOR/Rosas-ERE/blob/main/WEB/BARRA.jpg?raw=true"
-                                alt="barra" width="80px" height="90px">
-                            <p>Caja 10 barras de cereal aran 45g</p>
-                            <p>$999</p>
-                            <a href="./detalle-producto">
-                                <button>Ver más</button>
-                            </a>
-                        </article>
-                        <article>
-                            <img src="https://github.com/FacundoOR/Rosas-ERE/blob/main/WEB/BARRA.jpg?raw=true"
-                                alt="barra" width="80px" height="90px">
-                            <p>Caja 10 barras de cereal limon 45g</p>
-                            <p>$999</p>
-                            <a href="./detalle-producto">
-                                <button>Ver más</button>
-                            </a>
-                        </article>
-                        <article>
-                            <img src="https://github.com/FacundoOR/Rosas-ERE/blob/main/WEB/BARRA.jpg?raw=true"
-                                alt="barra" width="80px" height="90px">
-                            <p>Caja 10 barras de cereal chocolate 45g</p>
-                            <p>$999</p>
-                            <a href="./detalle-producto">
-                                <button>Ver más</button>
-                            </a>
-                        </article>
-                        <article>
-                            <img src="https://github.com/FacundoOR/Rosas-ERE/blob/main/WEB/BARRA.jpg?raw=true"
-                                alt="barra" width="80px" height="90px">
-                            <p>Caja 10 barras de cereal semillas 45g</p>
-                            <p>$999</p>
-                            <a href="./detalle-producto">
-                                <button>Ver más</button>
-                            </a>
-                        </article>
-                    </div>
-                    <div class="articulos">
-                        <article>
-                            <img src="https://github.com/FacundoOR/Rosas-ERE/blob/main/WEB/BARRA.jpg?raw=true"
-                                alt="barra" width="80px" height="90px">
-                            <p>Caja 10 barras de cereal clasicas 45g</p>
-                            <p>$999</p>
-                            <a href="./detalle-producto">
-                                <button>Ver más</button>
-                            </a>
-                        </article>
-                        <article>
-                            <img src="https://github.com/FacundoOR/Rosas-ERE/blob/main/WEB/BARRA.jpg?raw=true"
-                                alt="barra" width="80px" height="90px">
-                            <p>Caja 10 barras de cereal coco 45g</p>
-                            <p>$999</p>
-                            <a href="./detalle-producto">
-                                <button>Ver más</button>
-                            </a>
-                        </article>
-                        <article>
-                            <img src="https://github.com/FacundoOR/Rosas-ERE/blob/main/WEB/BARRA.jpg?raw=true"
-                                alt="barra" width="80px" height="90px">
-                            <p>Caja 10 barras de cereal naranja 45g</p>
-                            <p>$999</p>
-                            <a href="./detalle-producto">
-                                <button>Ver más</button>
-                            </a>
-                        </article>
-                        <article>
-                            <img src="https://github.com/FacundoOR/Rosas-ERE/blob/main/WEB/BARRA.jpg?raw=true"
-                                alt="barra" width="80px" height="90px">
-                            <p>Caja 10 barras de cereal c/blanco 45g</p>
-                            <p>$999</p>
-                            <a href="./detalle-producto">
-                                <button>Ver más</button>
-                            </a>
-                        </article>
+                    <div class="grilla">
+                        <div class="articulos">
+                            <article>
+                                <% products.forEach(p=> {%>
+                                    <img src="https://github.com/FacundoOR/Rosas-ERE/blob/main/WEB/BARRA.jpg?raw=true"
+                                        alt="barra" width="80px" height="90px">
+                                    <p>
+                                        <%- p.descripcion %>
+                                    </p>
+                                    <p>$ <%- p.precio %>
+                                    </p>
+                                    <a href="./detalle-producto/<%- p.id %> ">
+                                        <button>Ver más</button>
+                                    </a>
+                                    <% })%>
+                            </article>
+
+
+                        </div>
                     </div>
                 </div>
                 <div class="nosotros">
@@ -105,7 +48,8 @@
                                 variedades de
                                 barras
                                 para
-                                que elijas la que mejor se adapte a tu gusto y a tu rutina. Clásicas, Semillas, Coco,
+                                que elijas la que mejor se adapte a tu gusto y a tu rutina. Clásicas, Semillas,
+                                Coco,
                                 Chocolate
                                 y
                                 Limón.
